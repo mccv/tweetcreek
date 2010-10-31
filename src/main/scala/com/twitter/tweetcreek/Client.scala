@@ -37,7 +37,7 @@ extends Runnable {
 
   def retryableError(code: Int) = {
     // server error or timeout
-    code > 500 || code == -1
+    code > 499 || code == -1
   }
 
   //@tailrec
