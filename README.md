@@ -23,7 +23,7 @@ To build the project, you'll need
 tweetcreek directory, run sbt update, then sbt package.  You'll get a
 jar for scala 2.8.0 in target.
 
-If you need to build for Scala 2.7.7, either run sbt +update, then sbt
+If you need to build for Scala 2.7.7, run sbt +update, then sbt
 +compile.  You will get both 2.7.7 and 2.8.0 versions in your target
 directory.
 
